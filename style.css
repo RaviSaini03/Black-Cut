@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    background-color: rgb(53, 53, 53);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    height: 10vh;
+}
+.blackCut{
+    cursor: pointer;
+}
+.blackCut:hover{
+    color: rgb(165, 165, 165);
+}
+
+.items{
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item{
+    list-style: none;
+    cursor: pointer;
+}
+.item:hover{
+    color: rgb(165, 165, 165);
+}
+
+/* Home Section */
+
+.home{
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: wheat;
+}
+.homeSection1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3vh;
+}
+.homeSection1 h1{
+    font-size: 7vw;
+}
+.homeSection1 h2{
+    font-size: 4vw;
+}
+.homeImg{
+    height: 87vh;
+    width: 38vw;
+}
