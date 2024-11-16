@@ -3,6 +3,8 @@
     background-color: rgb(53, 53, 53);
 }
 
+/* Navbar */
+
 .navbar{
     display: flex;
     justify-content: space-around;
@@ -16,7 +18,6 @@
 .blackCut:hover{
     color: rgb(165, 165, 165);
 }
-
 .items{
     width: 60vw;
     display: flex;
@@ -39,6 +40,8 @@
     align-items: center;
     justify-content: space-evenly;
     color: wheat;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
 }
 .homeSection1{
     display: flex;
@@ -54,6 +57,68 @@
     font-size: 4vw;
 }
 .homeImg{
-    height: 87vh;
-    width: 38vw;
+    width: 36vw;
+    aspect-ratio: 1/1;
 }
+
+/* What We Are */
+.aboutCompany{
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: wheat;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+}
+.whatWeAre1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    gap: 5vh;
+    width: 35vw;
+}
+.whatWeAreName{
+    color: red;
+    font-size: 2vw;
+    font-family: 'Courier New', Courier, monospace;
+}
+.whatWeArePara{
+    color: rgb(219, 219, 219);
+    font-size: 1.3vw;
+    word-spacing: 1vw;
+    text-align: justify;
+}
+
+/* Purpose */
+.purpose{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: fit-content;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+}
+.purposeName{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 25vw;
+    height: fit-content;
+    gap: 3vh;
+}
+.purposeNameHeading{
+    color: red;
+    font-size: 2vw;
+}
+.purposePara{
+    color: rgb(219, 219, 219);
+    font-size: 1.3vw;
+    word-spacing: 1vw;
+    text-align: center;
+}
+
+/* Total Users Interface */
+
