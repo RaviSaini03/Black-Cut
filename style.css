@@ -58,10 +58,11 @@
 }
 .homeImg{
     width: 36vw;
-    aspect-ratio: 1/1;
+    aspect-ratio: 1.05/1;
 }
 
 /* What We Are */
+
 .aboutCompany{
     height: fit-content;
     display: flex;
@@ -79,6 +80,10 @@
     gap: 5vh;
     width: 35vw;
 }
+.whatWeAreImg{
+    aspect-ratio: 1.566 / 1;
+    width: 47vw;
+}
 .whatWeAreName{
     color: red;
     font-size: 2vw;
@@ -90,7 +95,9 @@
     word-spacing: 1vw;
     text-align: justify;
 }
+
 /* Purpose */
+
 .purpose{
     display: flex;
     align-items: center;
@@ -98,6 +105,7 @@
     height: fit-content;
     padding-top: 7vh;
     padding-bottom: 7vh;
+    background-color: rgb(53, 53, 53);
 }
 .purposeName{
     display: flex;
@@ -107,17 +115,59 @@
     width: 25vw;
     height: fit-content;
     gap: 3vh;
+    background-color: #36454F;
+    padding: 2vw;
+    border-radius: 1vw;
+}
+.purposeName svg{
+    background-color: transparent;
 }
 .purposeNameHeading{
     color: red;
     font-size: 2vw;
+    background-color: transparent;
 }
 .purposePara{
-    color: rgb(219, 219, 219);
+    color: rgb(209, 209, 209);
     font-size: 1.3vw;
     word-spacing: 1vw;
     text-align: center;
+    background-color: transparent;
+    text-align: justify;
 }
 
 /* Total Users Interface */
 
+.flexing{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: fit-content;
+    gap: 20vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-image: url(pexels-pixabay-531880.jpg);
+}
+.flexingName{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    width: 15vw;
+
+}
+.flexingNameHeading{
+    font-size: 2vw;
+    background: transparent;
+    backdrop-filter: blur(10px);
+}
+.flexingNameNumbers{
+    font-size: 4vw;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    color:  black;
+    font-family: "Poppins", sans-serif; 
+    font-weight: 700;
+}
