@@ -33,3 +33,34 @@ document.addEventListener("DOMContentLoaded", () => {
     observer.observe(document.getElementById('totalUsers'));
     observer.observe(document.getElementById('totalCaps'));
 });
+
+// For feedBack Section to slide the comments automaticaly
+
+let currentslide = 0;
+const sliderContainer = document.querySelector('.feedback');
+const sections = document.querySelectorAll('.comment');
+const allSections = sections.length - 2;
+
+let slideIntervel;
+
+function autoslide() {
+
+    const displacement = currentslide * 33.33;
+    sliderContainer.style.transform = `translateX(-${displacement}vw)`;
+    currentslide = (currentslide + 1)%allSections;
+
+}
+
+function startAutoSlide() {
+    slideIntervel = setInterval(autoslide, 3000);
+} 
+
+function stopAutoSlide() {
+    clearInterval(slideIntervel);
+}
+
+sliderContainer.addEventListener('mouseover', stopAutoSlide);
+sliderContainer.addEventListener('mouseout', startAutoSlide);
+
+startAutoSlide();
+
